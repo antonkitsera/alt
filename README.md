@@ -1,5 +1,4 @@
 # alt
- alt
 
 npm install
 
