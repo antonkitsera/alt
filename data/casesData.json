@@ -1,0 +1,128 @@
+[
+    { 
+        "id": 1,
+        "src": "../src/images/case-1.png",
+        "title": "ICO LEGAL SUPPORT",
+        "description": "ALTER lawyers accompany the procedure and documentation of ICO and Columbery.",
+        "company": "Columbery"
+    },
+    { 
+        "id": 2,
+        "src": "../src/images/case-2.png",
+        "title": "LEGAL SUPPORT OF KIEV IT CLUSTER",
+        "description": "ALTER lawyers accompany the procedure and documentation of ICO and Columbery.",
+        "company": "Kyiv IT Cluster"
+    },
+    { 
+        "id": 3,
+        "src": "../src/images/case-3.png",
+        "title": "EDUCATION",
+        "description": "Taxinformer is an ALTER project that helps young entrepreneurs choose their entrepreneurial activity and taxation system.",
+        "company": "TaxInformer"
+    },
+    { 
+        "id": 4,
+        "src": "../src/images/case-4.png",
+        "title": "PARTICIPATION IN PUBLIC PROCUREMENT",
+        "description": "Escade LLC`s support in public procurement.",
+        "company": "Eskae"
+    },
+    { 
+        "id": 5,
+        "src": "../src/images/case-5.png",
+        "title": "LICENSING",
+        "description": "Obtaining a license for pre-school and elementary education for private children's institutions.",
+        "company": "Antoshka"
+    },
+    { 
+        "id": 6,
+        "src": "../src/images/case-6.png",
+        "title": "SUPPORT OF TRANSACTIONS ON RIGHT",
+        "description": "Support of BLITZ INVESTMAN GROUP LLC in investment projects in the sectors of agriculture, IT and energy.",
+        "company": "Nanobot"
+    },
+    { 
+        "id": 7,
+        "src": "../src/images/case-7.png",
+        "title": "PARTICIPATION IN PUBLIC PROCUREMENT",
+        "description": "Accompaniment of PE GOLD AGRO PETROLLUM in public procurement.",
+        "company": "1"
+    },
+    { 
+        "id": 8,
+        "src": "../src/images/case-8.png",
+        "title": "LICENSING",
+        "description": "Obtaining a license for pre-school and elementary education for private children's institutions.",
+        "company": "1"
+    },
+    { 
+        "id": 9,
+        "src": "../src/images/case-9.png",
+        "title": "PRIVACY POLICY",
+        "description": "Alter lawyers prapared privacy policy fro client.",
+        "company": "1"
+    },
+    { 
+        "id": 10,
+        "src": "../src/images/case-10.png",
+        "title": "BILLINGUAL СONTRACTS",
+        "description": "Alter lawyers prepared billingual contracts with American company and Ukrainian private enterpreneurs",
+        "company": "1"
+    },
+    { 
+        "id": 11,
+        "src": "../src/images/case-11.png",
+        "title": "SHARE PURCHASE AGREEMENT",
+        "description": "Power green energy: LLC formation in Ukraine with non residents. Work permit obtaining. Due Dilligence of Solar plants station.",
+        "company": "1"
+    },
+    { 
+        "id": 12,
+        "src": "../src/images/case-12.png",
+        "title": "REGISTRATION",
+        "description": "Private limited company formation in Estonia Republic. Opening bank account. Preparation contracts with developers and software development agreement with customers. Trademark registration in Estonia Republic, Privacy Policy, Terms of use",
+        "company": "1"
+    },
+    { 
+        "id": 13,
+        "src": "../src/images/case-13.png",
+        "title": "BILLINGUAL СONTRACTS",
+        "description": "Alter lawyers prepared billingual contracts with American company and Ukrainian private enterpreneurs",
+        "company": "1"
+    },
+    { 
+        "id": 14,
+        "src": "../src/images/case-14.png",
+        "title": "SHARE PURCHASE AGREEMENT",
+        "description": "Power green energy: LLC formation in Ukraine with non residents. Work permit obtaining. Due Dilligence of Solar plants station.",
+        "company": "1"
+    },
+    { 
+        "id": 15,
+        "src": "../src/images/case-15.png",
+        "title": "REGISTRATION",
+        "description": "Private limited company formation in Estonia Republic. Opening bank account. Preparation contracts with developers and software development agreement with customers. Trademark registration in Estonia Republic, Privacy Policy, Terms of use",
+        "company": "1"
+    },
+    { 
+        "id": 16,
+        "src": "../src/images/case-16.png",
+        "title": "REGISTRATION",
+        "description": "Innovation development lab - registration of LLC. Nda preparation, contracts with developers, rent agreement.",
+        "company": "1"
+    },
+    { 
+        "id": 17,
+        "src": "../src/images/case-17.png",
+        "title": "LICENSE",
+        "description": "Farmax LLC - LLC formation, trademark registration, public offer agreement, pharmacy license.",
+        "company": "1"
+    },
+    { 
+        "id": 18,
+        "src": "../src/images/case-18.png",
+        "title": "EXPORT",
+        "description": "Tonki export to Italia.",
+        "company": "1"
+    }
+]

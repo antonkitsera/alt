@@ -1,0 +1,250 @@
+@import 'variables';
+
+.services {
+    background-color: $color-white-dark;
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(264px, 1fr));
+        grid-auto-rows: 1fr;
+        grid-column-gap: 24px;
+        grid-row-gap: 16px;
+        padding: 26px 0 32px 0;
+    }
+
+    &-item {
+        padding: 25px 14px 24px 14px;
+        background-color: $color-white;
+        border: 1px solid $color-gray-light;
+        text-decoration: none;
+        transition: $transition-long;
+
+        &:hover {
+            background-color: $color-blue;
+
+            .services {
+                &-item {
+                    &__icon {
+                        filter: brightness(50);
+                    }
+
+                    &__title {
+                        color: $color-white;
+                    }
+                }
+            }
+        }
+
+        &__icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        &__title {
+            margin: 0;
+            font-family: $font-first;
+            font-weight: 600;
+            font-size: 16px;
+            text-align: center;
+            line-height: 22px;
+            color: $color-gray-dark-light;
+        }
+    }
+}
+
+.message {
+    padding-top: 53px;
+    padding-bottom: 201px;
+    display: grid;
+    grid-template-areas: "content aside";
+    grid-template-columns: 1fr 450px;
+    grid-template-rows: 1fr auto;
+    grid-column-gap: 48px;
+    grid-row-gap: 20px;
+    
+    &-content {
+        grid-area: content;
+
+        &__title, &__text, &-list__item {
+            margin: 0;
+            font-family: $font-first;
+            line-height: 32px;
+            color: $color-gray-dark;
+        }
+
+        &__title {
+            font-size: 24px;
+            font-weight: normal;
+
+            &_bold {
+                font-weight: bold;
+            }
+
+            &:first-child {
+                margin-bottom: 20px;
+            }
+        }
+
+        &__text {
+            margin-bottom: 20px;
+
+            &:nth-child(3) {
+                margin-bottom: 0;
+            }
+        }
+
+        &-list {
+            margin: 0;
+            padding: 0;
+            padding-left: 20px;
+            margin-bottom: 20px;
+
+            &__item {
+
+            }
+        }
+    }
+
+    &-aside {
+        grid-area: aside;
+
+        &__logo {
+            width: 100%;
+            max-width: 360px;
+            height: 78px;
+        }
+
+        &__photo {
+            position: relative;
+            width: 100%;
+            height: 514px;
+            overflow: hidden;
+            margin-top: 45px;
+            margin-bottom: 30px;
+        }
+
+        &__source {
+            height: auto;
+            position: absolute;
+            width: 100%;
+        }
+
+        .contacts {
+            background-color: transparent;
+            border: 1px solid $color-gray-light;
+
+            &__wrapper {
+                flex-direction: column;
+                padding: 16px 19px;
+            }
+
+            &__link {
+                margin: 0;
+                padding: 0;
+                margin-bottom: 16px;
+
+                &:last-child {
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    .contacts {
+        &__link {
+            color: $color-blue;
+        }
+
+        &__icon {
+            fill: $color-blue;
+            filter: none;
+        }
+    }
+}
+
+@media (max-width: 1140px) {
+
+
+
+    .services {
+        background-color: transparent;
+        padding-top: 20px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .Collapsible {
+        cursor: pointer;
+
+        &__trigger {
+            display: flex;
+            border-bottom: 1px solid rgba($color: $color-black, $alpha: 0.1);
+            padding-bottom: 5px;
+            font-family: $font-first;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 33px;
+            color: $color-blue;
+            position: relative;
+
+            &::after {
+                content: "";
+                display: block;
+                background-image: url("../assets/icon-accordion.svg");
+                background-repeat: no-repeat;
+                width: 12px;
+                height: 6px;         
+                position: absolute;
+                right: 5px;
+                top: 48%; 
+                transition: $transition;
+            }
+
+            &.is-closed {
+                &::after { 
+                    transform: rotate(-180deg);
+                }
+            }
+        }
+    }
+
+    .message {
+        grid-template-areas:
+        "content"
+        "aside";
+        grid-template-columns: 1fr;
+        grid-template-rows:
+        1fr
+        minmax(75px, auto);
+        padding-top: 20px;
+        padding-bottom: 36px;
+
+        &-aside {
+            &__logo {
+                max-width: 300px;
+            }
+
+            &__photo {
+                height: 386px;
+                margin-top: 29px;
+            }
+
+            &__source {
+                object-fit: cover;
+                height: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 370px) {
+    .message {
+        &-aside {
+            &__logo {
+                max-width: 260px;
+            }
+        }
+    }
+}
